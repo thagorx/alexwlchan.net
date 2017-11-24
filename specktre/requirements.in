@@ -1,3 +1,4 @@
 flask
 flask-wtf
 specktre
+Pillow==4.1.0  # to match the version installed from apk

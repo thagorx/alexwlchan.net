@@ -12,7 +12,7 @@ itsdangerous==0.24        # via flask
 jinja2==2.10              # via flask
 markupsafe==1.0           # via jinja2
 olefile==0.44             # via pillow
-pillow==4.3.0             # via specktre
+pillow==4.1.0             # via specktre
 specktre==0.2.0
 werkzeug==0.12.2          # via flask
 wtforms==2.1              # via flask-wtf
