@@ -8,3 +8,11 @@ RUN apk update && \
 
 COPY requirements.txt /
 RUN pip3 install -r requirements.txt
+
+EXPOSE 8888
+
+COPY app /app
+COPY uwsgi.ini /etc/uwsgi/uwsgi.ini
+COPY specktre.wsgi /specktre.wsgi
+
+CMD ["/usr/sbin/uwsgi", "--ini", "/etc/uwsgi/uwsgi.ini"]
