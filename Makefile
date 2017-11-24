@@ -106,6 +106,7 @@ renew-certbot:
 
 
 include analytics/Makefile
+include specktre/Makefile
 
 
 .PHONY: clean build stop serve serve-debug publish-drafts publish deploy test renew-certbot
