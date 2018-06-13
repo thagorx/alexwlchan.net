@@ -41,7 +41,7 @@ PAYLOAD = {
 		],
         'bisexual.jpg': [
             'https://iiif.wellcomecollection.org/image/B0008050.jpg/0,0,4414,1059/3500,840/0/default.jpg',
-            'https://iiif.wellcomecollection.org/image/B0010919.jpg/0,2500,4080,490/3500,420/0/default.jpg',
+            'https://iiif.wellcomecollection.org/image/W0043248.jpg/4500,0,406,3384/420,3500/90/default.jpg',
             'https://iiif.wellcomecollection.org/image/B0010096.jpg/0,3000,4266,1023/3500,840/0/default.jpg'
         ]
 }
