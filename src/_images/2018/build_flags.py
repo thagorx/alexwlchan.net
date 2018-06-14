@@ -41,7 +41,13 @@ PAYLOAD = {
 		],
         'bisexual.jpg': [
             'https://iiif.wellcomecollection.org/image/B0008050.jpg/0,0,4414,1059/3500,840/0/default.jpg',
-            'https://iiif.wellcomecollection.org/image/W0043248.jpg/4500,0,406,3384/420,3500/90/default.jpg',
+
+            # 'https://iiif.wellcomecollection.org/image/W0043248.jpg/4500,0,406,3384/420,3500/90/default.jpg',
+            # 'https://iiif.wellcomecollection.org/image/B0009850.jpg/600,4200,5000,600/3500,420/0/default.jpg',
+            # 'https://iiif.wellcomecollection.org/image/s3%3AB0010000%2FB0010309.jpg/200,1000,2598,312/3500,420/0/default.jpg',
+            # 'https://iiif.wellcomecollection.org/image/s3%3AB0010000%2FB0010916.jpg/470,1200,1800,216/3500,420/0/default.jpg',
+            'https://iiif.wellcomecollection.org/image/s3%3AB0010000%2FB0010916.jpg/480,1200,1600,192/3500,420/0/default.jpg',
+
             'https://iiif.wellcomecollection.org/image/B0010096.jpg/0,3000,4266,1023/3500,840/0/default.jpg'
         ]
 }
