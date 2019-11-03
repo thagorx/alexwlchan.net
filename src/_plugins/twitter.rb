@@ -107,7 +107,7 @@ module Jekyll
     end
 
     def images_path(name)
-      return "#{@src}/_images/twitter"
+      return "#{@src}/_images/twitter/#{name}"
     end
 
     def cache_file()
@@ -206,7 +206,11 @@ module Jekyll
       if not File.exists? cache_file()
         puts("Caching #{@tweet_url}")
         client = setup_api_client()
-        tweet = client.status(@tweet_url, tweet_mode: 'extended')
+        tweet = client.status(
+          @tweet_url,
+          tweet_mode: "extended",
+          include_ext_alt_text: true
+        )
         json_string = JSON.pretty_generate(tweet.attrs)
         download_avatar(tweet)
         download_media(tweet)

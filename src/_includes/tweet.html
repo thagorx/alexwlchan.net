@@ -10,6 +10,11 @@
     {% if tweet_data["extended_entities"]["media"].size == 1 %}
       {% assign media = tweet_data["extended_entities"]["media"][0] %}
       {% assign expanded_url = media["expanded_url"] %}
+
+      {% if media["ext_alt_text"] %}
+        {% assign alt_text = media["ext_alt_text"] %}
+      {% endif %}
+
       <a href="{{ expanded_url }}">
         <img src="{{ media | tweet_img_entity_url }}" alt="{{ alt_text }}">
       </a>
